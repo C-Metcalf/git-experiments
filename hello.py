@@ -19,5 +19,12 @@ def backend():
     print("we do backend shiiii. you know how we do.")
 >>>>>>> 10c77ac (Added backend func)
 
+def test():
+    x =3
+    y =2
+    v = 3000
+    print(x + y + v)
+
 if __name__ == "__main__":
     main()
+    test()
