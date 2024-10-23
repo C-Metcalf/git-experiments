@@ -1,6 +1,6 @@
 def main():
     print("Hello from gitexperiments!")
-    results = trunk()
+    results = feature()
     print(results)
 
 def trunk():
@@ -17,6 +17,11 @@ def test():
     y =2
     v = 3000
     print(x + y + v)
+    
+def feature():
+    res = trunk()
+    new_res = res / 5 + 300
+    return new_res
 
 if __name__ == "__main__":
     main()
