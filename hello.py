@@ -17,6 +17,9 @@ def test():
     y =2
     v = 3000
     print(x + y + v)
+
+def new_value(prev_val, new_val):
+    return prev_val + new_val
     
 def feature():
     res = trunk()
